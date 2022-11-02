@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffefd6;
+}
+h1{
+    font-size: 5em;
+    font-family: acumin-pro, sans-serif;
+    color: #3879F5;
+    font-weight: 200;
+
+    font-style: normal;
+
+    text-align: center;
+    padding-top: 19%;
+}
+
+/* HOME: OBJECTS */
+
+#obj0, #obj1, #obj2, #obj3, #obj4, #obj5, #obj6, #obj7, #obj8, #obj9, #obj10 {
+
+}
+
+.objects{
+    top: 40;
+    left: 50;
+    background-color: black;
+    opacity: 40%;
+    color: white;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+
+
+    filter: drop-shadow(0 0 0.75rem black);
+    
+}
+
+/* TOP NAV LINK */
+
+.aboutnav1, .backtohome, .aboutnav2{
+   position: absolute;
+   top: 0;
+   width: 170px;
+   height:  70px;
+   color: black;
+   text-align: center;
+   padding-top: 20px;
+   text-decoration: none;
+   font-family: sans-serif;
+   font-size: 20px;
+   border: 2px solid black;
+}
+.aboutnav1{
+    background-color: red;
+    left: 0;
+}
+.aboutnav2{
+    background-color:blue;
+    right: 0;
+}
+.backtohome{
+    background-color: yellow;
+    left: 0;
+}
+
+/* CONTRIBUTOR NAMES */
+
+.names{
+    
+    font-family: sans-serif;
+
+    
+}
+.names a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 3%;
+}
+
+/* ABOUT FOOTER */
+#footer{
+    position: fixed;
+    bottom: 0;
+    background-color: green;
+    height: 45px;
+    width: 100vw;
+}
+.marquee a{
+    font-size: 2em;
+    font-family: acumin-pro-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+    
+
+}
+.marquee{
+    width: 2000px;
+    overflow:hidden;
+
+}
+    
+p{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 300px;
+}
+
+
