@@ -24,6 +24,11 @@ $(document).ready(function(){
     animateDiv('#obj8');
     animateDiv('#obj9');
     animateDiv('#obj10');
+    animateDiv('#room0');
+    animateDiv('#room1');
+    animateDiv('#room2');
+    animateDiv('#room3');
+    animateDiv('#room4');
 });
 
 function makeNewPosition(){
@@ -41,7 +46,7 @@ function makeNewPosition(){
 
 function animateDiv(myclass){
     var newq = makeNewPosition();
-    $(myclass).animate({ top: newq[0], left: newq[1] }, 5800,   function(){
+    $(myclass).animate({ top: newq[0], left: newq[1] }, 8000,   function(){
       animateDiv(myclass);        
     });
     

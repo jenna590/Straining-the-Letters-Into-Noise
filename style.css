@@ -6,7 +6,6 @@
 body{
     background-color: #ffefd6;
 }
-
 h1{
     font-size: 5em;
     font-family: acumin-pro, sans-serif;
@@ -17,6 +16,11 @@ h1{
 
     text-align: center;
     padding-top: 19%;
+}
+.header{
+    padding-top: 0.5%;
+    margin: 0;
+    text-align: center;
 }
 
 /* HOME: OBJECTS */
@@ -34,17 +38,40 @@ h1{
     position: absolute;
     width: 100px;
     height: 100px;
-
-
-
     filter: drop-shadow(0 0 0.75rem black);
     
 }
 
+#room0, #room1, #room2, #room3, #room4{
+    position: absolute;
+    max-width: 200px;
+}
+#room0, #room1{
+    bottom: 0;
+}
+#room2, #room3, #room4{
+    top: 0;
+}
+#room0, #room4{
+    left: 0;
+}
+#room2, #room1{
+    right: 0;
+}
+#room3{
+    right: 45%;
+}
+.aboutus{
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    line-height: 140%;
+}
 /* TOP NAV LINK */
 
 .aboutnav1, .backtohome, .aboutnav2{
-   position: absolute;
+   position: fixed;
    top: 0;
    width: 170px;
    height:  60px;
@@ -60,6 +87,7 @@ h1{
     background-color: red;
     left: 0;
 }
+
 .aboutnav2{
     background-color:blue;
     right: 0;
@@ -123,8 +151,9 @@ p{
     
     width: 35%;
 }
-.ascii{
+.artist-info img {
     max-width: 20%;
+    background: transparent;
     
 }
 .carousel{
@@ -136,8 +165,8 @@ p{
     transition: transform 2s ease, opacity .5s ease-out;
 }
 .frame{
-    margin-top: 60px;
-    background-color: #d4c6af;
+    margin-top: 1%;
+    background-color: transparent;
     width: 100vw;
     height: 60%;
 }
