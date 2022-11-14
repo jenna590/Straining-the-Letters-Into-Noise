@@ -21,6 +21,7 @@ h1{
     padding-top: 0.5%;
     margin: 0;
     text-align: center;
+    font-weight: 100;
 }
 
 /* HOME: OBJECTS */
@@ -41,6 +42,8 @@ h1{
     filter: drop-shadow(0 0 0.75rem black);
     
 }
+
+/* ABOUT PAGE  */
 
 #room0, #room1, #room2, #room3, #room4{
     position: absolute;
@@ -75,7 +78,7 @@ h1{
    top: 0;
    width: 170px;
    height:  60px;
-   color: black;
+   color: rgb(26, 39, 27);
    text-align: center;
    padding-top: 1%;
    text-decoration: none;
@@ -95,23 +98,6 @@ h1{
 .backtohome{
     background-color: yellow;
     left: 0;
-}
-
-/* CONTRIBUTOR NAMES */
-
-.names{
-    
-    font-family: sans-serif;
-
-    
-}
-.names a{
-    display: block;
-    color: black;
-    text-decoration: none;
-    font-weight: 300;
-    text-align: center;
-    padding-top: 3%;
 }
 
 /* ABOUT FOOTER */
@@ -146,31 +132,26 @@ h1{
     overflow:hidden;
 
 }
-    
+
+/* ARTIST PAGE */
+
 p{
-    
     width: 35%;
+    color:rgb(26, 39, 27);
 }
 .artist-info img {
     max-width: 20%;
     background: transparent;
-    
 }
 .carousel{
+    padding-top: 1%;;
     display: block;
-    max-width: 60%;
+    max-width: 70%;
     margin: 0 auto;
 }
 .carousel-item{
     transition: transform 2s ease, opacity .5s ease-out;
 }
-.frame{
-    margin-top: 1%;
-    background-color: transparent;
-    width: 100vw;
-    height: 60%;
-}
-
 
 .no-boot{
     background-color: #ffefd6;
@@ -181,8 +162,8 @@ p{
     width: 20%;
     padding: 0;
     margin: 0;
-    font-size: 5em;
-
+    font-size: 4em;
+    color:rgb(26, 39, 27);
 }
 .artist-info{
     padding: 3% 0;
@@ -194,6 +175,41 @@ p{
 }
 span{
     display: block;
-
     font-size: 1.2em;
+}
+.pronouns{
+    font-size: 0.7em;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 900px){
+    .name{
+        width: 100%;
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    p{
+        width: 60%;
+    }
+    .artist-info img{
+        max-width: 30%;
+    }
+    .pronouns{
+        display: inline;
+    }
+    .header{
+        font-size: 1em;
+        padding-top: 2%;
+    }
+    .carousel
+    {
+        max-width: 100%;
+        padding-top: 25px;
+    }
+    .aboutus{
+        width: 70%;
+        left: 18%;
+    }
+
 }
