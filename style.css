@@ -27,7 +27,7 @@ h1{
 /* HOME: OBJECTS */
 .objects{
     background-color: black;
-    opacity: 40%;
+    opacity: 80%;
     color: white;
     position: absolute;
     width: 100px;
@@ -43,7 +43,9 @@ h1{
 #obj6, #obj7, #obj8, #obj9, #obj10, #obj14, #obj15{
     right: 0;
 }
-
+.cover-image{
+    max-width: 100%;
+}
 /* ABOUT PAGE  */
 
 #room0, #room1, #room2, #room3, #room4{
