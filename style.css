@@ -21,18 +21,11 @@ h1{
     padding-top: 0.5%;
     margin: 0;
     text-align: center;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 /* HOME: OBJECTS */
-
-#obj0, #obj1, #obj2, #obj3, #obj4, #obj5, #obj6, #obj7, #obj8, #obj9, #obj10 {
-
-}
-
 .objects{
-    top: 40;
-    left: 50;
     background-color: black;
     opacity: 40%;
     color: white;
@@ -40,7 +33,15 @@ h1{
     width: 100px;
     height: 100px;
     filter: drop-shadow(0 0 0.75rem black);
-    
+}
+#obj0, #obj2, #obj4, #obj6, #obj7, #obj8, #obj11, #obj15, #obj16{
+    top: 0;
+}
+#obj1, #obj3, #obj5, #obj9, #obj10, #obj12, #obj13, #obj14{
+    bottom: 0;
+}
+#obj6, #obj7, #obj8, #obj9, #obj10, #obj14, #obj15{
+    right: 0;
 }
 
 /* ABOUT PAGE  */
@@ -54,9 +55,6 @@ h1{
 }
 #room2, #room3, #room4{
     top: 0;
-}
-#room0, #room4{
-    left: 0;
 }
 #room2, #room1{
     right: 0;
@@ -123,9 +121,11 @@ h1{
     font-weight: 300;
     font-style: normal;
     color: black;
+    text-decoration: none; 
+}
+.marquee a:hover{
     text-decoration: none;
-    
-
+    color: red;
 }
 .marquee{
     width: 2000px;
@@ -156,6 +156,10 @@ p{
 .no-boot{
     background-color: #ffefd6;
     overflow-x: hidden;
+}
+.no-boot a:hover{
+    text-decoration: none;
+    color: red;
 }
 .name{
     text-align: left;
