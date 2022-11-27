@@ -10,6 +10,7 @@ $('.marquee').marquee({
 	//true or false - should the marquee be duplicated to show an effect of continues flow
 	duplicated: true,
     startVisible: true,
+    pauseOnHover: true
 });
 
 $(document).ready(function(){
@@ -49,6 +50,7 @@ function makeNewPosition(){
     return [nh,nw];    
     
 }
+// window.addEventListener('resize', makeNewPosition());
 
 function animateDiv(myclass){
     var newq = makeNewPosition();
