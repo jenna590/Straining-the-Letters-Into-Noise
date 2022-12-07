@@ -27,13 +27,12 @@ h1{
 
 /* HOME: OBJECTS */
 .objects{
-    background-color: black;
-    opacity: 80%;
+    opacity: 90%;
     color: white;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    filter: drop-shadow(0 0 0.75rem black);
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(0 0 0.75rem #e1d3bc);
 }
 #obj0, #obj2, #obj4, #obj6, #obj7, #obj8, #obj11, #obj15, #obj16{
     top: 0;
@@ -44,9 +43,7 @@ h1{
 #obj6, #obj7, #obj8, #obj9, #obj10, #obj14, #obj15{
     right: 0;
 }
-.cover-image{
-    max-width: 100%;
-}
+
 /* ABOUT PAGE  */
 
 #room0, #room1, #room2, #room3, #room4{
@@ -112,7 +109,6 @@ h1{
 #footer-artist{
     position: fixed;
     bottom: 0;
-    position: absolute;
     padding: 0;
     margin: 0;
     background-color: green;
@@ -137,9 +133,13 @@ h1{
     overflow:hidden;
 
 }
-
+.coverimages{
+    max-width: 110%;
+}
 /* ARTIST PAGE */
-
+.coverimages-small{
+    max-width: 150%;
+}
 p{
     width: 35%;
     color:rgb(26, 39, 27);
@@ -189,7 +189,10 @@ span{
 .pronouns{
     font-size: 0.7em;
 }
-
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
 /* RESPONSIVE */
 
 @media only screen and (max-width: 900px){
