@@ -83,71 +83,72 @@ var header = document.querySelector('h1')
 //Jenna Marbukh
 obj0.addEventListener("mouseover", function() {
   header.textContent = "Jenna Marbukh"
-})
+});
 //Noel Foltz
 obj1.addEventListener("mouseover", function() {
     header.textContent = "Noel Foltz"
-})
+});
 //Eliza Darnell
 obj2.addEventListener("mouseover", function() {
     header.textContent = "Eliza Darnell"
-})
+});
 //Celia Donnelly
 obj3.addEventListener("mouseover", function() {
     header.textContent = "Celia Donnelly"
-})
+});
 //Jalen Burwell
 obj4.addEventListener("mouseover", function() {
     header.textContent = "Jalen Burwell"
-})
+});
 //Jennifer Bui
 obj5.addEventListener("mouseover", function() {
     header.textContent = "Jennifer Bui"
-})
+});
 //Lindsay O'Neill
 obj6.addEventListener("mouseover", function() {
     header.textContent = "Lindsay O'Neill"
-})
+});
 //Julia Spewak 
 obj7.addEventListener("mouseover", function() {
     header.textContent = "Julia Spewak"
-})
+});
 //Laila Errazzouki
 obj8.addEventListener("mouseover", function() {
     header.textContent = "Laila Errazzouki"
-})
+});
 //Amanda Grate
 obj9.addEventListener("mouseover", function() {
     header.textContent = "Amanda Grate"
-})
+});
 //Madison Scharf
 obj10.addEventListener("mouseover", function() {
     header.textContent = "Madison Scharf"
-})
+});
 //Melisa Tran
-obj11.addEventListener("mouseover", function() {
-    header.textContent = "Melisa Tran"
-})
+// obj11.addEventListener("mouseover", function() {
+//     header.textContent = "Melisa Tran"
+// });
 //Kaya Windpainter
 obj12.addEventListener("mouseover", function() {
     header.textContent = "Kaya Windpainter"
-})
+});
 //Fiona McMichael
 obj13.addEventListener("mouseover", function() {
     header.textContent = "Fiona McMichael"
-})
+});
 //Erin Crawford
 obj14.addEventListener("mouseover", function() {
     header.textContent = "Erin Crawford"
-})
+});
 //Alissa Barber
 obj15.addEventListener("mouseover", function() {
     header.textContent = "Alissa Barber"
-})
+});
 //Caroline Barry
 obj16.addEventListener("mouseover", function() {
     header.textContent = "Caroline Barry"
-})
+});
 objects.addEventListener("mouseout", function() {
     header.textContent = "Straining Letters Into Noise"
-})
+    console.log('hi')
+});
