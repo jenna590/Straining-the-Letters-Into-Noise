@@ -65,9 +65,10 @@ h1{
 .aboutus{
     width: 50%;
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 25%;
     line-height: 140%;
+    font-family: acumin-pro, sans-serif;
 }
 /* TOP NAV LINK */
 
