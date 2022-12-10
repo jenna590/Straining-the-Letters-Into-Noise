@@ -177,7 +177,7 @@ p{
     color:rgb(26, 39, 27);
 }
 .artist-info{
-    padding: 3% 0;
+    padding: 3% 0 5% 0;
     width: 100%;
     display: flex;
     flex-flow: row wrap;
