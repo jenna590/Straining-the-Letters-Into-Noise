@@ -150,5 +150,4 @@ obj16.addEventListener("mouseover", function() {
 });
 objects.addEventListener("mouseout", function() {
     header.textContent = "Straining Letters Into Noise"
-    console.log('hi')
 });
